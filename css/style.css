@@ -190,9 +190,10 @@ header .container {
 .about-list {
   display: flex;
 }
-.about-list-item {
+.about-list-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .mini-title {
   font-family: var(--font);
   font-weight: 700;
