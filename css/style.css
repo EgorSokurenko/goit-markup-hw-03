@@ -46,6 +46,7 @@ button {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
 
 .link {
@@ -76,7 +77,6 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 15px;
 }
 
 .logo {
@@ -218,7 +218,7 @@ header .container {
   margin-bottom: 50px;
 }
 .list-img-section {
-  padding-bottom: 188px;
+  padding-bottom: 94px;
 }
 .list-img {
   display: flex;
@@ -228,6 +228,7 @@ header .container {
 
 /* our team */
 .team {
+  padding-top: 94px;
   padding-bottom: 94px;
   background: #f5f4fa;
 }
@@ -337,11 +338,11 @@ header .container {
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
-  margin-bottom: 94px;
 }
 .project {
   border: 1px solid #eeeeee;
   margin: 15px;
+  width: 370px;
 }
 .disription-port {
   padding: 20px;
